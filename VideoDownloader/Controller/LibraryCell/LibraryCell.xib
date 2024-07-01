@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="LibraryCell" customModule="VideoDownloader" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="libraryCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="libraryCell" rowHeight="100" id="KGk-i7-Jjw" customClass="LibraryCell" customModule="VideoDownloader" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="318" height="100"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -33,14 +33,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RC-Dg-LWM">
-                                <rect key="frame" x="100" y="46" width="44.333333333333343" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <rect key="frame" x="100" y="46" width="100" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="o1R-el-yIa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sX0-zL-orx">
+                                <rect key="frame" x="210" y="46" width="36" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14901961389999999" green="0.1607843041" blue="0.19215688110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="sX0-zL-orx" firstAttribute="top" secondItem="3RC-Dg-LWM" secondAttribute="top" id="Aew-QQ-9L6"/>
                             <constraint firstItem="3RC-Dg-LWM" firstAttribute="leading" secondItem="yHe-Am-5zO" secondAttribute="leading" id="OZF-70-AkJ"/>
                             <constraint firstItem="Ufg-k8-AgK" firstAttribute="leading" secondItem="lx3-Yi-Urk" secondAttribute="leading" constant="15" id="Q7V-MH-b3d"/>
                             <constraint firstItem="Ufg-k8-AgK" firstAttribute="centerY" secondItem="lx3-Yi-Urk" secondAttribute="centerY" id="gKf-y3-Ckf"/>
@@ -48,9 +58,11 @@
                             <constraint firstItem="3RC-Dg-LWM" firstAttribute="top" secondItem="yHe-Am-5zO" secondAttribute="bottom" constant="5" id="l8k-10-fON"/>
                             <constraint firstItem="yHe-Am-5zO" firstAttribute="leading" secondItem="Ufg-k8-AgK" secondAttribute="trailing" constant="15" id="pF2-dz-Hhk"/>
                             <constraint firstItem="yHe-Am-5zO" firstAttribute="top" secondItem="lx3-Yi-Urk" secondAttribute="top" constant="20" id="rUh-8v-bh2"/>
+                            <constraint firstItem="sX0-zL-orx" firstAttribute="leading" secondItem="3RC-Dg-LWM" secondAttribute="trailing" constant="10" id="xBY-z5-9hx"/>
                         </constraints>
                     </view>
                 </subviews>
+                <color key="backgroundColor" red="0.090196087960000004" green="0.094117648900000003" blue="0.11372549830000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                 <constraints>
                     <constraint firstItem="lx3-Yi-Urk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Ppa-iV-E0X"/>
                     <constraint firstItem="lx3-Yi-Urk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="XqJ-aX-FkA"/>
@@ -59,6 +71,13 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgAvatar" destination="Ufg-k8-AgK" id="TFg-zc-4uE"/>
+                <outlet property="lbName" destination="yHe-Am-5zO" id="KVb-wo-ry8"/>
+                <outlet property="lbSize" destination="3RC-Dg-LWM" id="C9T-Tp-Og1"/>
+                <outlet property="lbTime" destination="sX0-zL-orx" id="8wo-Yh-25w"/>
+                <outlet property="viewBackground" destination="lx3-Yi-Urk" id="7yy-ij-Hme"/>
+            </connections>
             <point key="canvasLocation" x="32.061068702290072" y="40.140845070422536"/>
         </tableViewCell>
     </objects>

@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020A4CA92AC57E94009FE4E6 /* BaseViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020A4CA82AC57E94009FE4E6 /* BaseViewControler.swift */; };
+		020A4CAB2AC5824C009FE4E6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020A4CAA2AC5824C009FE4E6 /* Data.swift */; };
+		023FC5782AC8EC7E001444D9 /* ImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023FC5762AC8EC7E001444D9 /* ImagesCell.swift */; };
+		023FC5792AC8EC7E001444D9 /* ImagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023FC5772AC8EC7E001444D9 /* ImagesCell.xib */; };
+		023FC57C2AC8EC8C001444D9 /* VideosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023FC57A2AC8EC8C001444D9 /* VideosCell.swift */; };
+		023FC57D2AC8EC8C001444D9 /* VideosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023FC57B2AC8EC8C001444D9 /* VideosCell.xib */; };
+		023FC5802AC8EC9E001444D9 /* Mp3sCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023FC57E2AC8EC9E001444D9 /* Mp3sCell.swift */; };
+		023FC5812AC8EC9E001444D9 /* Mp3sCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023FC57F2AC8EC9E001444D9 /* Mp3sCell.xib */; };
+		02473E962ACDBB9000B644CA /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 02473E952ACDBB9000B644CA /* ObjectMapper */; };
+		026D070B2AD284CD00BBFCDF /* LibraryDownload.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 026D07092AD284CD00BBFCDF /* LibraryDownload.xcdatamodeld */; };
+		026D07162AD2895200BBFCDF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026D07152AD2895200BBFCDF /* CoreData.framework */; };
 		0291A50E2AC45DB40011E262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291A50D2AC45DB40011E262 /* AppDelegate.swift */; };
 		0291A5102AC45DB40011E262 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291A50F2AC45DB40011E262 /* SceneDelegate.swift */; };
 		0291A5122AC45DB40011E262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291A5112AC45DB40011E262 /* ViewController.swift */; };
 		0291A5152AC45DB40011E262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0291A5132AC45DB40011E262 /* Main.storyboard */; };
 		0291A5172AC45DB60011E262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0291A5162AC45DB60011E262 /* Assets.xcassets */; };
 		0291A51A2AC45DB60011E262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0291A5182AC45DB60011E262 /* LaunchScreen.storyboard */; };
+		0291A5252AC4778B0011E262 /* DownloadOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291A5242AC4778B0011E262 /* DownloadOptionVC.swift */; };
+		0291A5272AC481CC0011E262 /* DownloadLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291A5262AC481CC0011E262 /* DownloadLibraryVC.swift */; };
+		0291A52A2AC487070011E262 /* LibraryCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291A5282AC487070011E262 /* LibraryCelll.swift */; };
+		0291A52B2AC487070011E262 /* LibraryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0291A5292AC487070011E262 /* LibraryCell.xib */; };
+		02BC21012AFBF8F100DB79AB /* DownloadItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC20FF2AFBF8F100DB79AB /* DownloadItem+CoreDataProperties.swift */; };
+		02BC21022AFBF8F100DB79AB /* DownloadItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC21002AFBF8F100DB79AB /* DownloadItem+CoreDataClass.swift */; };
+		06C2A0B44EE3FEE7A7AB7602 /* Pods_VideoDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF51E678C9A2148345E96CB /* Pods_VideoDownloader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020A4CA82AC57E94009FE4E6 /* BaseViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewControler.swift; sourceTree = "<group>"; };
+		020A4CAA2AC5824C009FE4E6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		023FC5762AC8EC7E001444D9 /* ImagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCell.swift; sourceTree = "<group>"; };
+		023FC5772AC8EC7E001444D9 /* ImagesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCell.xib; sourceTree = "<group>"; };
+		023FC57A2AC8EC8C001444D9 /* VideosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosCell.swift; sourceTree = "<group>"; };
+		023FC57B2AC8EC8C001444D9 /* VideosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosCell.xib; sourceTree = "<group>"; };
+		023FC57E2AC8EC9E001444D9 /* Mp3sCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp3sCell.swift; sourceTree = "<group>"; };
+		023FC57F2AC8EC9E001444D9 /* Mp3sCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Mp3sCell.xib; sourceTree = "<group>"; };
+		026D070A2AD284CD00BBFCDF /* LibraryDownload.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LibraryDownload.xcdatamodel; sourceTree = "<group>"; };
+		026D07152AD2895200BBFCDF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0291A50A2AC45DB40011E262 /* VideoDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0291A50D2AC45DB40011E262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0291A50F2AC45DB40011E262 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +52,15 @@
 		0291A5162AC45DB60011E262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0291A5192AC45DB60011E262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0291A51B2AC45DB60011E262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0291A5242AC4778B0011E262 /* DownloadOptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOptionVC.swift; sourceTree = "<group>"; };
+		0291A5262AC481CC0011E262 /* DownloadLibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadLibraryVC.swift; sourceTree = "<group>"; };
+		0291A5282AC487070011E262 /* LibraryCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCelll.swift; sourceTree = "<group>"; };
+		0291A5292AC487070011E262 /* LibraryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryCell.xib; sourceTree = "<group>"; };
+		02BC20FF2AFBF8F100DB79AB /* DownloadItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DownloadItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		02BC21002AFBF8F100DB79AB /* DownloadItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DownloadItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5FF51E678C9A2148345E96CB /* Pods_VideoDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F4A185F21CBBE63EEE6FDD /* Pods-VideoDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDownloader.debug.xcconfig"; path = "Target Support Files/Pods-VideoDownloader/Pods-VideoDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		9B38B8BBBD6FF4F80818C8E2 /* Pods-VideoDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoDownloader.release.xcconfig"; path = "Target Support Files/Pods-VideoDownloader/Pods-VideoDownloader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +68,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026D07162AD2895200BBFCDF /* CoreData.framework in Frameworks */,
+				02473E962ACDBB9000B644CA /* ObjectMapper in Frameworks */,
+				06C2A0B44EE3FEE7A7AB7602 /* Pods_VideoDownloader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022614F52AC4899B002F02AD /* LibraryCell */ = {
+			isa = PBXGroup;
+			children = (
+				0291A5282AC487070011E262 /* LibraryCelll.swift */,
+				0291A5292AC487070011E262 /* LibraryCell.xib */,
+			);
+			path = LibraryCell;
+			sourceTree = "<group>";
+		};
+		023FC5752AC8EC56001444D9 /* OptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				023FC5762AC8EC7E001444D9 /* ImagesCell.swift */,
+				023FC5772AC8EC7E001444D9 /* ImagesCell.xib */,
+				023FC57A2AC8EC8C001444D9 /* VideosCell.swift */,
+				023FC57B2AC8EC8C001444D9 /* VideosCell.xib */,
+				023FC57E2AC8EC9E001444D9 /* Mp3sCell.swift */,
+				023FC57F2AC8EC9E001444D9 /* Mp3sCell.xib */,
+			);
+			path = OptionCell;
+			sourceTree = "<group>";
+		};
+		026D070C2AD2878800BBFCDF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				026D07092AD284CD00BBFCDF /* LibraryDownload.xcdatamodeld */,
+				02BC21002AFBF8F100DB79AB /* DownloadItem+CoreDataClass.swift */,
+				02BC20FF2AFBF8F100DB79AB /* DownloadItem+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		0291A5012AC45DB40011E262 = {
 			isa = PBXGroup;
 			children = (
 				0291A50C2AC45DB40011E262 /* VideoDownloader */,
 				0291A50B2AC45DB40011E262 /* Products */,
+				7FAD51A50DA56AC45A46248E /* Pods */,
+				CBEBE140FE68154D2C2752AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +130,64 @@
 		0291A50C2AC45DB40011E262 /* VideoDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				0291A50D2AC45DB40011E262 /* AppDelegate.swift */,
-				0291A50F2AC45DB40011E262 /* SceneDelegate.swift */,
-				0291A5112AC45DB40011E262 /* ViewController.swift */,
-				0291A5132AC45DB40011E262 /* Main.storyboard */,
+				026D070C2AD2878800BBFCDF /* CoreData */,
+				0291A5232AC45DD00011E262 /* Controller */,
+				0291A5222AC45DC90011E262 /* Model */,
+				0291A5212AC45DC30011E262 /* View */,
 				0291A5162AC45DB60011E262 /* Assets.xcassets */,
-				0291A5182AC45DB60011E262 /* LaunchScreen.storyboard */,
 				0291A51B2AC45DB60011E262 /* Info.plist */,
 			);
 			path = VideoDownloader;
+			sourceTree = "<group>";
+		};
+		0291A5212AC45DC30011E262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0291A5132AC45DB40011E262 /* Main.storyboard */,
+				0291A5182AC45DB60011E262 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0291A5222AC45DC90011E262 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				020A4CAA2AC5824C009FE4E6 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0291A5232AC45DD00011E262 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				023FC5752AC8EC56001444D9 /* OptionCell */,
+				022614F52AC4899B002F02AD /* LibraryCell */,
+				0291A50F2AC45DB40011E262 /* SceneDelegate.swift */,
+				0291A50D2AC45DB40011E262 /* AppDelegate.swift */,
+				0291A5112AC45DB40011E262 /* ViewController.swift */,
+				0291A5242AC4778B0011E262 /* DownloadOptionVC.swift */,
+				0291A5262AC481CC0011E262 /* DownloadLibraryVC.swift */,
+				020A4CA82AC57E94009FE4E6 /* BaseViewControler.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7FAD51A50DA56AC45A46248E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71F4A185F21CBBE63EEE6FDD /* Pods-VideoDownloader.debug.xcconfig */,
+				9B38B8BBBD6FF4F80818C8E2 /* Pods-VideoDownloader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBEBE140FE68154D2C2752AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026D07152AD2895200BBFCDF /* CoreData.framework */,
+				5FF51E678C9A2148345E96CB /* Pods_VideoDownloader.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +197,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0291A51E2AC45DB60011E262 /* Build configuration list for PBXNativeTarget "VideoDownloader" */;
 			buildPhases = (
+				87985F5C94D74E4547AE66A9 /* [CP] Check Pods Manifest.lock */,
 				0291A5062AC45DB40011E262 /* Sources */,
 				0291A5072AC45DB40011E262 /* Frameworks */,
 				0291A5082AC45DB40011E262 /* Resources */,
+				0C1ACF0B49E208BB353EBF16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = VideoDownloader;
+			packageProductDependencies = (
+				02473E952ACDBB9000B644CA /* ObjectMapper */,
+			);
 			productName = VideoDownloader;
 			productReference = 0291A50A2AC45DB40011E262 /* VideoDownloader.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +239,9 @@
 				Base,
 			);
 			mainGroup = 0291A5012AC45DB40011E262;
+			packageReferences = (
+				02473E942ACDBB8F00B644CA /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+			);
 			productRefGroup = 0291A50B2AC45DB40011E262 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,22 +256,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				023FC5812AC8EC9E001444D9 /* Mp3sCell.xib in Resources */,
 				0291A51A2AC45DB60011E262 /* LaunchScreen.storyboard in Resources */,
+				0291A52B2AC487070011E262 /* LibraryCell.xib in Resources */,
 				0291A5172AC45DB60011E262 /* Assets.xcassets in Resources */,
+				023FC5792AC8EC7E001444D9 /* ImagesCell.xib in Resources */,
 				0291A5152AC45DB40011E262 /* Main.storyboard in Resources */,
+				023FC57D2AC8EC8C001444D9 /* VideosCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1ACF0B49E208BB353EBF16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoDownloader/Pods-VideoDownloader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoDownloader/Pods-VideoDownloader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoDownloader/Pods-VideoDownloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87985F5C94D74E4547AE66A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoDownloader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0291A5062AC45DB40011E262 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026D070B2AD284CD00BBFCDF /* LibraryDownload.xcdatamodeld in Sources */,
+				020A4CAB2AC5824C009FE4E6 /* Data.swift in Sources */,
+				02BC21012AFBF8F100DB79AB /* DownloadItem+CoreDataProperties.swift in Sources */,
+				023FC5782AC8EC7E001444D9 /* ImagesCell.swift in Sources */,
 				0291A5122AC45DB40011E262 /* ViewController.swift in Sources */,
+				023FC57C2AC8EC8C001444D9 /* VideosCell.swift in Sources */,
+				023FC5802AC8EC9E001444D9 /* Mp3sCell.swift in Sources */,
 				0291A50E2AC45DB40011E262 /* AppDelegate.swift in Sources */,
 				0291A5102AC45DB40011E262 /* SceneDelegate.swift in Sources */,
+				020A4CA92AC57E94009FE4E6 /* BaseViewControler.swift in Sources */,
+				0291A52A2AC487070011E262 /* LibraryCelll.swift in Sources */,
+				02BC21022AFBF8F100DB79AB /* DownloadItem+CoreDataClass.swift in Sources */,
+				0291A5252AC4778B0011E262 /* DownloadOptionVC.swift in Sources */,
+				0291A5272AC481CC0011E262 /* DownloadLibraryVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +470,7 @@
 		};
 		0291A51F2AC45DB60011E262 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71F4A185F21CBBE63EEE6FDD /* Pods-VideoDownloader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +499,7 @@
 		};
 		0291A5202AC45DB60011E262 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B38B8BBBD6FF4F80818C8E2 /* Pods-VideoDownloader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +548,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02473E942ACDBB8F00B644CA /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02473E952ACDBB9000B644CA /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02473E942ACDBB8F00B644CA /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		026D07092AD284CD00BBFCDF /* LibraryDownload.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				026D070A2AD284CD00BBFCDF /* LibraryDownload.xcdatamodel */,
+			);
+			currentVersion = 026D070A2AD284CD00BBFCDF /* LibraryDownload.xcdatamodel */;
+			path = LibraryDownload.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0291A5022AC45DB40011E262 /* Project object */;
 }

@@ -2,6 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>The application needs to access the Documents folder to manage and play music.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsForMedia</key>
+		<false/>
+		<key>NSAllowsArbitraryLoadsUsageDescription</key>
+		<dict/>
+		<key>NSAllowsArbitraryLoadsForMediaUsageDescription</key>
+		<dict/>
+	</dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This key is required if your app uses APIs that have read or write access to the user’s photo library.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>App has to access your photo library to save image</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

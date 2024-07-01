@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.8.0)
+  - HandyJSON (5.0.2)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - SDWebImage (5.18.1):
+    - SDWebImage/Core (= 5.18.1)
+  - SDWebImage/Core (5.18.1)
+  - SwiftAudioPlayer (7.6.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - NVActivityIndicatorView
+  - SDWebImage
+  - SwiftAudioPlayer
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SwiftAudioPlayer
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  SDWebImage: ebdbcebc7933a45226d9313bd0118bc052ad458b
+  SwiftAudioPlayer: a546709faf47f3ab0cb59e41ba4432e6bb61db0a
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 94d4bd0d27f91862942eb17be6b89b32f40f8dd0
+
+COCOAPODS: 1.14.2

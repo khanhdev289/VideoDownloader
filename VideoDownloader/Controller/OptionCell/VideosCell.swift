@@ -8,10 +8,25 @@
 import UIKit
 
 class VideosCell: UICollectionViewCell {
+    
 
+    @IBOutlet weak var imgVideo: UIImageView!
+    
+    @IBOutlet weak var btnSelectVideo: UIButton!
+    
+    @IBOutlet weak var lbVideo: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        setupRadius()
     }
-
+    
+    func setupRadius(){
+        lbVideo.layer.cornerRadius = 10
+        lbVideo.layer.masksToBounds = true
+        
+        imgVideo.layer.cornerRadius = 20
+        imgVideo.layer.masksToBounds = true
+    }
 }
